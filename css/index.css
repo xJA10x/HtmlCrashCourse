@@ -241,3 +241,87 @@ h2::before {
   width: 200px;
 
 }
+
+
+/*****************************
+
+Media queries
+
+******************************/
+
+@media (min-width: 500px) {
+
+  .companies {
+
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+
+  }
+
+}
+
+@media (min-width: 650) {
+
+  body {
+
+    font-size: 18px;
+
+
+  }
+
+  .wrapper {
+
+    padding: 1.5em 4em;
+
+  }
+
+  .carousal-container {
+
+    display: flex;
+
+  }
+
+  .arrows {
+
+    display: block;
+    width: 40px;
+    cursor: pointer;
+    margin: .5em;
+
+  }
+
+  .right {
+
+    transform: rotatez(180deg);
+
+  }
+
+  ul.carousal {
+
+    display: flex;
+    margin-bottom: 0;
+
+  }
+
+  ul.carousal li {
+
+    margin-right: 1em;
+    margin-bottom: 0;
+    padding: 2em;
+
+    &:last-child {
+
+      margin-right: 0;
+
+    }
+
+  }
+
+  .companies {
+
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+}
