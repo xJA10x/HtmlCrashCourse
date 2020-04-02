@@ -325,3 +325,82 @@ Media queries
   }
 
 }
+
+@media(min-width: 853px) {
+
+  body {
+
+    font-size: 20px;
+
+  }
+
+  .stats {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+
+  }
+
+  .companies {
+
+    grid-template-columns: repeat(4, auto);
+
+  }
+
+  h1 {
+
+    font-size: 2.5em;
+
+  }
+
+  .subtitle {
+
+    font-size: 1.2em;
+
+  }
+
+  h2 {
+
+    text-align: left;
+    font-size: 2em;
+
+  }
+
+
+  .v-padding {
+
+    padding: 4em;
+
+  }
+
+  .light-purple-wrapper {
+
+    padding-bottom: 4em;
+
+  }
+
+  .move-up {
+
+    margin-top: -7em;
+
+  }
+
+}
+
+@media(min-width:1200px) {
+
+  .stats li {
+
+    border-right: 1px solid rgb(124, 98, 148);
+    padding-right: 5%;
+
+  }
+
+  &:last-child {
+
+    border: 0;
+
+  }
+
+}
